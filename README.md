@@ -1,24 +1,6 @@
-# README
+テーマ： 読んだ本の感想を投稿するサイト
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+作成していただくアプリケーションは、以下のurlから見ることができます。
+レイアウトや機能の実装について下記の要件と合わせて参考にしてください。
+完成アプリケーションurl : https://bookers-level1.herokuapp.com/
+※上記のアプリケーションは、1時間に一度投稿されたデータをリセットしています。
