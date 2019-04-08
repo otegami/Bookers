@@ -18,3 +18,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  width: 100%;
+  margin: 3% 3%;
+  font-family: verdana, arial, helvetica, sans-serif;
+  line-height: 18px;
+}
+.notice {
+  color: green;
+}
+h1 {
+  display: block;
+  padding: 2% 0;
+}
+table {
+  padding: 1%;
+  width: 50%;
+}
+table th {
+  padding-bottom: 1%;
+}
+table td {
+  padding-left: 1%;
+  padding-bottom: 2%;
+}
+.form_fild {
+  display: block;
+}
+.book_title {
+  margin-bottom: 1%;
+}
+.book_body {
+  margin-bottom: 1%;
+}
+/* create css about show.html.erb */
+p {
+  margin: 1%;
+}

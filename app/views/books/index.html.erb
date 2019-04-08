@@ -1,3 +1,4 @@
+<main>
 <h1>Books</h1>
 <table>
   <tr>
@@ -22,9 +23,10 @@
 
 <h1>New Book</h1>
 <%= form_for(@book) do |b| %>
-  <h4>Title</h4>
+  <h4 class="form_field">Title</h4>
   <%= b.text_field :title, class: "book_title" %>
-  <h4>Body</h4>
+  <h4 class="form_field">Body</h4>
   <%= b.text_area :body, class: "book_body" %>
   <p><%= b.submit 'Post it'%></p>
 <% end %>
+</main>
