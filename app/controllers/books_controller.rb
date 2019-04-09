@@ -1,4 +1,6 @@
 class BooksController < ApplicationController
+  def top
+  end
   def index
     @books = Book.all.order("id ASC")
     @book = Book.new
